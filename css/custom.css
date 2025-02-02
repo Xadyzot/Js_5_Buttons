@@ -1,0 +1,8 @@
+.bg-image-menu{
+    background-image: url("../img/home-bg.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

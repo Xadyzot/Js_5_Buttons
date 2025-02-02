@@ -1,7 +1,6 @@
 let butt = document.getElementsByClassName("btns");
 let bobo = document.getElementById("bobo");
 let newEl = document.createElement('div');
-let newText = document.createTextNode('');
 let my = 5;
 for (const btnA of butt) {
     btnA.addEventListener('click', function () {
@@ -23,9 +22,6 @@ for (const btnA of butt) {
             my -= 1
             if (my <= 0) {
                 bobo.className = "bg-black"
-                newEl.appendChild(newText);
-                let position = document.getElementById('dividi');
-                position.appendChild(newEl);
                 document.getElementById('dividi').innerHTML += '<div class="h1 text-white">The End</div>';
             }
         }; 
